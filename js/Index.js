@@ -1,4 +1,15 @@
 const form = document.querySelector('.form');
+const timeAndDate = document.querySelector('#time-and-date');
+
+const dateAndTime = () => {
+  setInterval(() => {
+    const date = new Date().toUTCString();
+    timeAndDate.innerHTML = date;
+  }, 0);
+};
+
+dateAndTime();
+
 class Book {
   constructor(title, author, index) {
     this.title = title;

@@ -35,7 +35,8 @@ nav > h1{
   color: #000;
   min-width: 30%;
 }
-#dateDisplay{
+#time-and-date{
+  padding: 20px;
   margin: 0 0 0 auto;
 }
 table {
