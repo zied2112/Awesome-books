@@ -100,3 +100,25 @@ input {
   background-color: rgb(184, 14, 14);
   color: #fff;
 }
+.contact-header,
+ .cont-info {
+  text-align: center;
+}
+.cont-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer {
+  border: 2px solid #000000;
+  padding: 12px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background-color: #ffffff;
+}
+
+
+
+

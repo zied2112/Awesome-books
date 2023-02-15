@@ -113,3 +113,10 @@ contact.addEventListener('click', () => {
   form.style.display = 'none';
   display.style.display = 'none';
 } );
+
+
+
+
+
+
+
