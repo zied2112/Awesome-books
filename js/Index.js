@@ -84,3 +84,32 @@ form.addEventListener('submit', (e) => {
   Book.addBook(book);
   Book.clearFields();
 });
+
+
+const logo = document.querySelector('#logo');
+const list = document.querySelector('#list');
+const newbook = document.querySelector('#newbook');
+const contact = document.querySelector('#contact');
+const display = document.querySelector('#display');
+const contactPage = document.querySelector('#contactPage');
+logo.addEventListener('click', () => {
+  display.style.display = 'block';
+  form.style.display = 'none';  
+  contactPage.style.display = 'none';
+});
+ list.addEventListener('click', () => {
+  display.style.display = 'block';
+  form.style.display = 'none';  
+  contactPage.style.display = 'none';
+ });
+
+newbook.addEventListener('click', () => {
+  form.style.display = 'flex';
+  display.style.display = 'none';
+  contactPage.style.display = 'none';
+}); 
+contact.addEventListener('click', () => { 
+  contactPage.style.display = 'block';
+  form.style.display = 'none';
+  display.style.display = 'none';
+} );

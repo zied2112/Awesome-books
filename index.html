@@ -9,9 +9,17 @@
 </head>
 
 <body>
-    
-    <h1>Awesome Books</h1>
-    <div class="books"></div>
+    <header>
+        <nav>
+            <h1 id="logo">Awesome Books</h1>
+            <ul>
+                <li id="list">List</li>
+                <li id="newbook">Add new</li>
+                <li id="contact">Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="books" id="display">
     <table>
         <th>Book</th>
         <th>Author</th>
@@ -20,7 +28,7 @@
 
          </tbody>
     </table>
-
+</div>
 
     <form class = "form">
     <input class="input-author" type="text" placeholder="Author" required>
@@ -29,6 +37,11 @@
             Add
         </button>
     </form>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contactPage">
+        contact
+    </section>
     <script src="./js/Index.js"></script>
 </body>
 </html>
