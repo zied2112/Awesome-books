@@ -7,12 +7,14 @@ body {
 h1 {
   text-align: center;
 }
-nav{
+
+nav {
   border: #000 solid 1px;
   display: flex;
   justify-content: space-between;
 }
-nav > ul{
+
+nav > ul {
   min-width: 50%;
   display: flex;
   justify-content: space-around;
@@ -22,23 +24,26 @@ nav > ul{
   margin: 10px;
   font-size: 1.2rem;
   font-weight: bold;
-
 }
-nav > ul > li{
+
+nav > ul > li {
   cursor: pointer;
   padding: 20px;
   border-right: #000 solid 1px;
 }
-nav > h1{
+
+nav > h1 {
   cursor: pointer;
   font-size: 30px;
   color: #000;
   min-width: 30%;
 }
-#time-and-date{
+
+#time-and-date {
   padding: 20px;
   margin: 0 0 0 auto;
 }
+
 table {
   font-family: Arial, Helvetica, sans-serif;
   border-collapse: collapse;
@@ -106,25 +111,24 @@ input {
   background-color: rgb(184, 14, 14);
   color: #fff;
 }
+
 .contact-header,
- .cont-info {
+.cont-info {
   text-align: center;
 }
+
 .cont-list {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
 .footer {
-  border: 2px solid #000000;
+  border: 2px solid #000;
   padding: 12px;
   position: fixed;
   width: 100%;
   bottom: 0;
-  background-color: #ffffff;
+  background-color: #fff;
 }
-
-
-
-

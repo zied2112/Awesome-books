@@ -96,7 +96,6 @@ form.addEventListener('submit', (e) => {
   Book.clearFields();
 });
 
-
 const logo = document.querySelector('#logo');
 const list = document.querySelector('#list');
 const newbook = document.querySelector('#newbook');
@@ -108,17 +107,17 @@ logo.addEventListener('click', () => {
   contact.style.color = 'black';
   newbook.style.color = 'black';
   display.style.display = 'block';
-  form.style.display = 'none';  
+  form.style.display = 'none';
   contactPage.style.display = 'none';
 });
- list.addEventListener('click', () => {
+list.addEventListener('click', () => {
   list.style.color = 'red';
   contact.style.color = 'black';
   newbook.style.color = 'black';
   display.style.display = 'block';
-  form.style.display = 'none';  
+  form.style.display = 'none';
   contactPage.style.display = 'none';
- });
+});
 
 newbook.addEventListener('click', () => {
   list.style.color = 'black';
@@ -127,12 +126,12 @@ newbook.addEventListener('click', () => {
   form.style.display = 'flex';
   display.style.display = 'none';
   contactPage.style.display = 'none';
-}); 
-contact.addEventListener('click', () => { 
+});
+contact.addEventListener('click', () => {
   list.style.color = 'black';
   contact.style.color = 'red';
   newbook.style.color = 'black';
   contactPage.style.display = 'block';
   form.style.display = 'none';
   display.style.display = 'none';
-} );
+});
