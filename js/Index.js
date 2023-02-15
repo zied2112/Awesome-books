@@ -93,23 +93,43 @@ const contact = document.querySelector('#contact');
 const display = document.querySelector('#display');
 const contactPage = document.querySelector('#contactPage');
 logo.addEventListener('click', () => {
+  list.style.color = 'red';
+  contact.style.color = 'black';
+  newbook.style.color = 'black';
   display.style.display = 'block';
   form.style.display = 'none';  
   contactPage.style.display = 'none';
 });
  list.addEventListener('click', () => {
+  list.style.color = 'red';
+  contact.style.color = 'black';
+  newbook.style.color = 'black';
   display.style.display = 'block';
   form.style.display = 'none';  
   contactPage.style.display = 'none';
  });
 
 newbook.addEventListener('click', () => {
+  list.style.color = 'black';
+  contact.style.color = 'black';
+  newbook.style.color = 'red';
   form.style.display = 'flex';
   display.style.display = 'none';
   contactPage.style.display = 'none';
 }); 
 contact.addEventListener('click', () => { 
+  list.style.color = 'black';
+  contact.style.color = 'red';
+  newbook.style.color = 'black';
   contactPage.style.display = 'block';
   form.style.display = 'none';
   display.style.display = 'none';
 } );
+
+const dateDisplay  = document.getElementById('dateDisplay')
+const d = new Date()
+const datee = document.createElement('p');
+datee.innerHTML = d;
+dateDisplay.appendChild(datee);
+
+
