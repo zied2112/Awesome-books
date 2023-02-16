@@ -1,7 +1,5 @@
 /* some code */
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }
@@ -86,6 +84,8 @@ th {
 }
 
 .form {
+  margin: auto;
+  width: 100%;
   margin: 30px;
   display: flex;
   gap: 20px;
@@ -93,13 +93,13 @@ th {
 
 input {
   width: 300px;
-  height: 30px;
+  height: 35px;
   border: 1px solid grey;
   box-shadow: 0 0 5px grey;
 }
 
 .add-button {
-  width: 22%;
+  width: 20%;
   display: flex;
   justify-content: end;
 }
