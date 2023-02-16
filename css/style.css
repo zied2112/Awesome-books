@@ -22,7 +22,7 @@ nav {
   justify-content: space-between;
 }
 
-nav > ul {
+nav>ul {
   min-width: 50%;
   display: flex;
   justify-content: space-around;
@@ -34,13 +34,13 @@ nav > ul {
   font-weight: bold;
 }
 
-nav > ul > li {
+nav>ul>li {
   cursor: pointer;
   padding: 20px;
   border-right: #000 solid 1px;
 }
 
-nav > h1 {
+nav>h1 {
   cursor: pointer;
   font-size: 30px;
   color: #000;
@@ -93,17 +93,25 @@ th {
 
 input {
   width: 300px;
-  height: 20px;
+  height: 30px;
   border: 1px solid grey;
+  box-shadow: 0 0 5px grey;
+}
+
+.add-button {
+  width: 22%;
+  display: flex;
+  justify-content: end;
 }
 
 .add {
   width: 100px;
-  padding: 10px;
-  border: 1px #000 solid;
+  padding: 5px;
+  border: 1px solid grey;
+  box-shadow: 0 0 5px grey;
   background-color: #fff;
   color: #000;
-  border-radius: 10px;
+
 }
 
 .add:hover {
