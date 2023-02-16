@@ -1,4 +1,11 @@
 /* some code */
+* {
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -9,7 +16,8 @@ h1 {
 }
 
 nav {
-  border: #000 solid 1px;
+  box-shadow: #000 0 0 10px;
+  border: #000 solid 2px;
   display: flex;
   justify-content: space-between;
 }
@@ -70,6 +78,11 @@ th {
   text-align: left;
   background-color: #000;
   color: white;
+}
+
+.error-message {
+  color: red;
+  display: none;
 }
 
 .form {
