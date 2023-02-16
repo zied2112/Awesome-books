@@ -88,7 +88,7 @@ form.addEventListener('submit', (e) => {
   const author = document.querySelector('.input-author').value;
   const title = document.querySelector('.input-book').value;
   if (author === '' || title === '') {
-    alert('Please fill in all fields');
+    prompt('Please fill in all fields');
   }
   const book = new Book(title, author);
   Book.addBookToList(book);
